@@ -1,0 +1,8 @@
+1. fitur pendaftaran telah selesai<solved>
+2. fitu login selesai<solved>
+3 fitur kirim pesan selesai<solved>
+4. realtime sudah <solved>
+
+catatan: realtime agar tidak berjalan terus maka pakai kondisi jika database bertambah maka setInterval di jalankan<waiting>
+
+Halaman chat:perubahan fungsi kirim pesan dihapus dan nama di masukan ke fungsi getchat<belum di hosting>

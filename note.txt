@@ -1,0 +1,13 @@
+1. buat file .htacses agar dapat mengakses tanpa menuliskan url
+2. ubah ase url pada folder config
+3. jika sudah membuat file akses pada folder root, hapus saja index page pada folder dan file config
+4. ubah page home, menjadi home,agar page akan diload otomatis saat folder ci dijalankan
+disini page home diubah menjadi home
+5. membuat file mahasisw.php untuk memanggil data dr database
+6. model segala seseatu berhubungan dengan query database
+7. views segala sesutau yang berhubungan dengan tampilan css, bootstrap dll
+8. untuk mengaktifkan fungsi "base_url" dapat di menggunakan $this->load->helper('url')
+pada kontroler atau ketik pada helper('url') pada auto load
+
+//fitu tambah data
+9.
