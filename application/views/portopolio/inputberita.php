@@ -45,9 +45,15 @@
         e.preventDefault();
          $('.progress').show();
         let formdata = new FormData();
+        //mengambil data gambar
         let uploadfile = $('#gambar').prop('files')[0];
+        //mengecek apakah tombol di tekan
         let berita = true;
+        //mengambil nama gambar
         let filegambar = $('#gambar').val();
+        //split untuk memisah dnan titik menjadi array
+        //pop untuk mengambil kata yang terakhit setelah titik
+        //tolowercase untuk manipulasi kata menjadi kecil semua
         ext = filegambar.split('.').pop().toLowerCase();
         formdata.append('filegambar',uploadfile)
         formdata.append('judul',$('#judul').val());

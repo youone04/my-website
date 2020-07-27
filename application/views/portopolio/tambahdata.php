@@ -63,6 +63,7 @@ $(document).ready(function (e) {
 		let ext1 =  $('#gambar').val().split('.').pop().toLowerCase();
 		let ext2 =  $('#gambar').val().split('.').pop().toLowerCase();
 		let ext3 =  $('#gambar').val().split('.').pop().toLowerCase();
+		//tombol submit harus di tekan
 		let cek = $('#submit');
 		cek = true;
 		data.append('submit',cek)
